@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="474d504d-028c-4f1e-a636-be03569fb521" name="Default Changelist" comment="Added new controller entity. Changed some algorithms).">
+      <change beforePath="$PROJECT_DIR$/InterpolationMethod/FrequencyCalculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InterpolationMethod/FrequencyCalculator.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/InterpolationMethod/ExtendendedCharacteristics.resx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/InterpolationMethod/ChainEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/InterpolationMethod/Graphic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/InterpolationMethod/ExtendendedCharacteristics.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/InterpolationMethod/ControllerGraphic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/InterpolationMethod/ExtendendedCharacteristics.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/InterpolationMethod/Chain.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/InterpolationMethod/UnicornController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/InterpolationMethod/FrequencyCalculator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/InterpolationMethod/ChainEditor.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/InterpolationMethod/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/InterpolationMethod/AutomizedObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/InterpolationMethod/ControllerExtendedCharacteristics.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/InterpolationMethod/ControlleGraphic.cs" />
+        <option value="$PROJECT_DIR$/InterpolationMethod/ExtendendedCharacteristics.Designer.cs" />
+        <option value="$PROJECT_DIR$/InterpolationMethod/ExtendendedCharacteristics.cs" />
+        <option value="$PROJECT_DIR$/InterpolationMethod/Object.cs" />
+        <option value="$PROJECT_DIR$/InterpolationMethod/AutomatizationObject.cs" />
+        <option value="$PROJECT_DIR$/InterpolationMethod/Chain.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/rider64.exe.vmoptions" />
+        <option value="$PROJECT_DIR$/InterpolationMethod/AutomatisationObject.cs" />
+        <option value="$PROJECT_DIR$/InterpolationMethod/ControllerGraphic.cs" />
+        <option value="$PROJECT_DIR$/InterpolationMethod/UnicornController.cs" />
+        <option value="$PROJECT_DIR$/InterpolationMethod/AutomizedObject.cs" />
+        <option value="$PROJECT_DIR$/InterpolationMethod/ChainEditor.cs" />
+        <option value="$PROJECT_DIR$/InterpolationMethod/ControllerExtendedCharacteristics.cs" />
+        <option value="$PROJECT_DIR$/InterpolationMethod/FrequencyCalculator.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aAmMpx27CXE6d2TYsQbTMZmjUT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.3" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+  </component>
+  <component name="RunManager">
+    <configuration name="InterpolationMethod" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/InterpolationMethod/InterpolationMethod.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="474d504d-028c-4f1e-a636-be03569fb521" name="Default Changelist" comment="" />
+      <created>1586186727988</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586186727988</updated>
+      <workItem from="1586186731329" duration="2773000" />
+      <workItem from="1586265001102" duration="10940000" />
+      <workItem from="1586298489696" duration="111000" />
+      <workItem from="1586301741586" duration="616000" />
+      <workItem from="1586302381831" duration="109000" />
+      <workItem from="1586302567172" duration="8376000" />
+      <workItem from="1586445852788" duration="3891000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added new controller entity. Changed some algorithms).">
+      <created>1586187490452</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586187490452</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added new controller entity. Changed some algorithms).">
+      <created>1586350596056</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586350596057</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added new controller entity. Changed some algorithms)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new controller entity. Changed some algorithms)." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="521" y="252" key="#C#" timestamp="1586302702588">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="521" y="252" key="#C#/0.0.1920.1040@0.0.1920.1040" timestamp="1586302702588" />
+    <state width="463" height="466" key="DebuggerActiveHint" timestamp="1586459100052">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="463" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1586459100052" />
+    <state width="938" height="348" key="GridCell.Tab.0.bottom" timestamp="1586459061633">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586459061633" />
+    <state width="938" height="348" key="GridCell.Tab.0.center" timestamp="1586459061633">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586459061633" />
+    <state width="938" height="348" key="GridCell.Tab.0.left" timestamp="1586459061632">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586459061632" />
+    <state width="938" height="348" key="GridCell.Tab.0.right" timestamp="1586459061633">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586459061633" />
+    <state width="938" height="348" key="GridCell.Tab.1.bottom" timestamp="1586459069465">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586459069465" />
+    <state width="938" height="348" key="GridCell.Tab.1.center" timestamp="1586459069465">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586459069465" />
+    <state width="938" height="348" key="GridCell.Tab.1.left" timestamp="1586459069465">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586459069465" />
+    <state width="938" height="348" key="GridCell.Tab.1.right" timestamp="1586459069465">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586459069465" />
+    <state width="938" height="348" key="GridCell.Tab.2.bottom" timestamp="1586459061320">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586459061320" />
+    <state width="938" height="348" key="GridCell.Tab.2.center" timestamp="1586459061319">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586459061319" />
+    <state width="938" height="348" key="GridCell.Tab.2.left" timestamp="1586459061319">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586459061319" />
+    <state width="938" height="348" key="GridCell.Tab.2.right" timestamp="1586459061320">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586459061320" />
+    <state width="938" height="348" key="GridCell.Tab.3.bottom" timestamp="1586459061320">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586459061320" />
+    <state width="938" height="348" key="GridCell.Tab.3.center" timestamp="1586459061320">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586459061320" />
+    <state width="938" height="348" key="GridCell.Tab.3.left" timestamp="1586459061320">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586459061320" />
+    <state width="938" height="348" key="GridCell.Tab.3.right" timestamp="1586459061320">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586459061320" />
+    <state width="938" height="348" key="GridCell.Tab.4.bottom" timestamp="1586459061320">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.4.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586459061320" />
+    <state width="938" height="348" key="GridCell.Tab.4.center" timestamp="1586459061320">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.4.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586459061320" />
+    <state width="938" height="348" key="GridCell.Tab.4.left" timestamp="1586459061320">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.4.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586459061320" />
+    <state width="938" height="348" key="GridCell.Tab.4.right" timestamp="1586459061320">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="348" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586459061320" />
+    <state x="643" y="260" key="Rider.ProjectTemplateDialog.Size" timestamp="1586265064948">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="643" y="260" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1040@0.0.1920.1040" timestamp="1586265064948" />
+    <state x="387" y="157" key="SettingsEditor" timestamp="1586459020276">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="387" y="157" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586459020276" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1586187494983">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586187494983" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/InterpolationMethod/ChainEditor.cs</url>
+          <line>116</line>
+          <properties documentPath="$PROJECT_DIR$/InterpolationMethod/ChainEditor.cs" initialLine="116">
+            <startOffsets>
+              <option value="4120" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4169" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/InterpolationMethod/ChainEditor.cs</url>
+          <line>106</line>
+          <properties documentPath="$PROJECT_DIR$/InterpolationMethod/ChainEditor.cs" initialLine="106">
+            <startOffsets>
+              <option value="3705" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3769" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/InterpolationMethod/FrequencyCalculator.cs</url>
+          <line>102</line>
+          <properties documentPath="$PROJECT_DIR$/InterpolationMethod/FrequencyCalculator.cs" initialLine="102">
+            <startOffsets>
+              <option value="3751" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3752" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
