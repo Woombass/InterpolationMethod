@@ -102,26 +102,30 @@ namespace InterpolationMethod
         private void CalculatePL()
         {
             double F;
-            double compareExpression = Math.Round(-Math.PI / 2 + Math.Atan(M), 2);
+            double compareExpression ;
+            double compareExpression2;
             do
             {
-                Frequency1 += 0.0001;
+                Frequency1 += 0.0005;
                 F = -(Frequency1 * (double) LatencyChain.tau) +
                     -Math.Atan((double) ProportionalChain.T * Frequency1 / (1 - (double) ProportionalChain.T * Frequency1 * M));
 
                 F = Math.Round(F, 2);
                 CurrentF = F;
-            } while (Math.Abs(CurrentF - Math.Round(Math.PI,2)) > 0.1);
+                compareExpression2 = Math.Abs(Math.Abs(CurrentF) - Math.Abs(Math.Round(Math.PI, 2)));
+
+            } while (compareExpression2 > 0.05);
 
             do
             {
-                Frequency0 += 0.0001;
+                Frequency0 += 0.0005;
                 F = -(Frequency0 * (double) LatencyChain.tau) +
                     -Math.Atan((double) ProportionalChain.T * Frequency0 / (1 - (double) ProportionalChain.T * Frequency0 * M));
                 F = Math.Round(F, 2);
                 CurrentF = F;
+                compareExpression = Math.Abs(Math.Abs(CurrentF) - Math.Abs(Math.Round(-Math.PI / 2 + Math.Atan(M), 2)));
 
-            } while (Math.Abs(CurrentF - compareExpression) > 0.1);
+            } while (compareExpression > 0.05);
         }
         private void CalculatePI()
         {

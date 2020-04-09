@@ -108,9 +108,10 @@ namespace InterpolationMethod
             freqController.Calculate();
             var last = freqController.Frequency1;
             var first = freqController.Frequency0;
+            var step = (last - first) / 15;
             
             
-            controller.CalculateExtendedCharacteristics(first,last,0.02);
+            controller.CalculateExtendedCharacteristics(first,last,step);
             
             _automizedObject = new AutomizedObject(controller.Chains);
             

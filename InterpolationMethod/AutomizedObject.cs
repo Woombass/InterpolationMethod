@@ -20,7 +20,7 @@ namespace InterpolationMethod
             Chains = chains;
             CommonA = new List<double>();
             CommonF = new List<double>();
-            for (int j = 0; j < chains[0].A.Count - 1; j++)
+            for (int j = 0; j < chains[0].A.Count ; j++)
             {
                 double number1 = chains[0].A[j];
                 double number2 = 1;
@@ -38,7 +38,7 @@ namespace InterpolationMethod
                 CommonA.Add(finalNumber);
             }
             
-            for (int j = 0; j < chains[0].F.Count - 1; j++)
+            for (int j = 0; j < chains[0].F.Count ; j++)
             {
                 double number1 = chains[0].F[j];
                 double number2 = 0;
