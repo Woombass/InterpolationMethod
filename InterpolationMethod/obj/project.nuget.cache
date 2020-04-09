@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "pmQzVcf3q3RiQ7/2JR4wlJfuyMhIpvUQJbVNaQaj5adGK8e8kFOHQ6KUYIGy198EyFHyUlR72DWRQ3pLGk01SA==",
+  "success": true,
+  "projectFilePath": "E:\\repos\\Стефанюк\\InterpolationMethod\\InterpolationMethod.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JustGap\\.nuget\\packages\\zedgraph\\5.1.7\\zedgraph.5.1.7.nupkg.sha512"
+  ],
+  "logs": []
+}

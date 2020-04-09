@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\repos\\Стефанюк\\InterpolationMethod\\InterpolationMethod.csproj": {}
+  },
+  "projects": {
+    "E:\\repos\\Стефанюк\\InterpolationMethod\\InterpolationMethod.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\repos\\Стефанюк\\InterpolationMethod\\InterpolationMethod.csproj",
+        "projectName": "InterpolationMethod",
+        "projectPath": "E:\\repos\\Стефанюк\\InterpolationMethod\\InterpolationMethod.csproj",
+        "packagesPath": "C:\\Users\\JustGap\\.nuget\\packages\\",
+        "outputPath": "E:\\repos\\Стефанюк\\InterpolationMethod\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\JustGap\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "ZedGraph": {
+              "target": "Package",
+              "version": "[5.1.7, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

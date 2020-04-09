@@ -1,0 +1,52 @@
+C:\Users\I Am THe SuperStar\source\repos\Стефанюк\InterpolationMethod\bin\Debug\InterpolationMethod.exe.config
+C:\Users\I Am THe SuperStar\source\repos\Стефанюк\InterpolationMethod\bin\Debug\InterpolationMethod.exe
+C:\Users\I Am THe SuperStar\source\repos\Стефанюк\InterpolationMethod\bin\Debug\InterpolationMethod.pdb
+C:\Users\I Am THe SuperStar\source\repos\Стефанюк\InterpolationMethod\obj\Debug\InterpolationMethod.csprojAssemblyReference.cache
+C:\Users\I Am THe SuperStar\source\repos\Стефанюк\InterpolationMethod\obj\Debug\InterpolationMethod.exe
+C:\Users\I Am THe SuperStar\source\repos\Стефанюк\InterpolationMethod\obj\Debug\InterpolationMethod.pdb
+C:\Users\I Am THe SuperStar\source\repos\Стефанюк\InterpolationMethod\bin\Debug\ZedGraph.dll
+C:\Users\I Am THe SuperStar\source\repos\Стефанюк\InterpolationMethod\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\I Am THe SuperStar\source\repos\Стефанюк\InterpolationMethod\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\I Am THe SuperStar\source\repos\Стефанюк\InterpolationMethod\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\I Am THe SuperStar\source\repos\Стефанюк\InterpolationMethod\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\I Am THe SuperStar\source\repos\Стефанюк\InterpolationMethod\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\I Am THe SuperStar\source\repos\Стефанюк\InterpolationMethod\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\I Am THe SuperStar\source\repos\Стефанюк\InterpolationMethod\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\I Am THe SuperStar\source\repos\Стефанюк\InterpolationMethod\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\I Am THe SuperStar\source\repos\Стефанюк\InterpolationMethod\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\I Am THe SuperStar\source\repos\Стефанюк\InterpolationMethod\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\I Am THe SuperStar\source\repos\Стефанюк\InterpolationMethod\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\I Am THe SuperStar\source\repos\Стефанюк\InterpolationMethod\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\I Am THe SuperStar\source\repos\Стефанюк\InterpolationMethod\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\I Am THe SuperStar\source\repos\Стефанюк\InterpolationMethod\obj\Debug\InterpolationMethod.MainWIndow.resources
+C:\Users\I Am THe SuperStar\source\repos\Стефанюк\InterpolationMethod\obj\Debug\InterpolationMethod.csproj.GenerateResource.cache
+C:\Users\I Am THe SuperStar\source\repos\Стефанюк\InterpolationMethod\obj\Debug\InterpolationMethod.csproj.CopyComplete
+C:\Users\I Am THe SuperStar\source\repos\Стефанюк\InterpolationMethod\obj\Debug\InterpolationMethod.ChainEditor.resources
+C:\Users\I Am THe SuperStar\source\repos\Стефанюк\InterpolationMethod\obj\Debug\InterpolationMethod.Properties.Resources.resources
+C:\Users\I Am THe SuperStar\source\repos\Стефанюк\InterpolationMethod\obj\Debug\InterpolationMethod.ExtendendedCharacteristics.resources
+E:\repos\Стефанюк\InterpolationMethod\bin\Debug\InterpolationMethod.exe.config
+E:\repos\Стефанюк\InterpolationMethod\bin\Debug\InterpolationMethod.exe
+E:\repos\Стефанюк\InterpolationMethod\bin\Debug\InterpolationMethod.pdb
+E:\repos\Стефанюк\InterpolationMethod\bin\Debug\ZedGraph.dll
+E:\repos\Стефанюк\InterpolationMethod\bin\Debug\de\ZedGraph.resources.dll
+E:\repos\Стефанюк\InterpolationMethod\bin\Debug\es\ZedGraph.resources.dll
+E:\repos\Стефанюк\InterpolationMethod\bin\Debug\fr\ZedGraph.resources.dll
+E:\repos\Стефанюк\InterpolationMethod\bin\Debug\hu\ZedGraph.resources.dll
+E:\repos\Стефанюк\InterpolationMethod\bin\Debug\it\ZedGraph.resources.dll
+E:\repos\Стефанюк\InterpolationMethod\bin\Debug\ja\ZedGraph.resources.dll
+E:\repos\Стефанюк\InterpolationMethod\bin\Debug\pt\ZedGraph.resources.dll
+E:\repos\Стефанюк\InterpolationMethod\bin\Debug\ru\ZedGraph.resources.dll
+E:\repos\Стефанюк\InterpolationMethod\bin\Debug\sk\ZedGraph.resources.dll
+E:\repos\Стефанюк\InterpolationMethod\bin\Debug\sv\ZedGraph.resources.dll
+E:\repos\Стефанюк\InterpolationMethod\bin\Debug\tr\ZedGraph.resources.dll
+E:\repos\Стефанюк\InterpolationMethod\bin\Debug\zh-cn\ZedGraph.resources.dll
+E:\repos\Стефанюк\InterpolationMethod\bin\Debug\zh-tw\ZedGraph.resources.dll
+E:\repos\Стефанюк\InterpolationMethod\obj\Debug\InterpolationMethod.csprojAssemblyReference.cache
+E:\repos\Стефанюк\InterpolationMethod\obj\Debug\InterpolationMethod.ChainEditor.resources
+E:\repos\Стефанюк\InterpolationMethod\obj\Debug\InterpolationMethod.ExtendendedCharacteristics.resources
+E:\repos\Стефанюк\InterpolationMethod\obj\Debug\InterpolationMethod.MainWIndow.resources
+E:\repos\Стефанюк\InterpolationMethod\obj\Debug\InterpolationMethod.Properties.Resources.resources
+E:\repos\Стефанюк\InterpolationMethod\obj\Debug\InterpolationMethod.csproj.GenerateResource.cache
+E:\repos\Стефанюк\InterpolationMethod\obj\Debug\InterpolationMethod.csproj.CopyComplete
+E:\repos\Стефанюк\InterpolationMethod\obj\Debug\InterpolationMethod.exe
+E:\repos\Стефанюк\InterpolationMethod\obj\Debug\InterpolationMethod.pdb
