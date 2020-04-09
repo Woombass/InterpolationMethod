@@ -21,3 +21,29 @@ C:\Users\I Am THe SuperStar\source\repos\Стефанюк\InterpolationMethod\ob
 C:\Users\I Am THe SuperStar\source\repos\Стефанюк\InterpolationMethod\obj\Release\InterpolationMethod.exe
 C:\Users\I Am THe SuperStar\source\repos\Стефанюк\InterpolationMethod\obj\Release\InterpolationMethod.pdb
 C:\Users\I Am THe SuperStar\source\repos\Стефанюк\InterpolationMethod\obj\Release\InterpolationMethod.csprojAssemblyReference.cache
+E:\repos\Стефанюк\InterpolationMethod\bin\Release\InterpolationMethod.exe.config
+E:\repos\Стефанюк\InterpolationMethod\bin\Release\InterpolationMethod.exe
+E:\repos\Стефанюк\InterpolationMethod\bin\Release\InterpolationMethod.pdb
+E:\repos\Стефанюк\InterpolationMethod\bin\Release\ZedGraph.dll
+E:\repos\Стефанюк\InterpolationMethod\bin\Release\de\ZedGraph.resources.dll
+E:\repos\Стефанюк\InterpolationMethod\bin\Release\es\ZedGraph.resources.dll
+E:\repos\Стефанюк\InterpolationMethod\bin\Release\fr\ZedGraph.resources.dll
+E:\repos\Стефанюк\InterpolationMethod\bin\Release\hu\ZedGraph.resources.dll
+E:\repos\Стефанюк\InterpolationMethod\bin\Release\it\ZedGraph.resources.dll
+E:\repos\Стефанюк\InterpolationMethod\bin\Release\ja\ZedGraph.resources.dll
+E:\repos\Стефанюк\InterpolationMethod\bin\Release\pt\ZedGraph.resources.dll
+E:\repos\Стефанюк\InterpolationMethod\bin\Release\ru\ZedGraph.resources.dll
+E:\repos\Стефанюк\InterpolationMethod\bin\Release\sk\ZedGraph.resources.dll
+E:\repos\Стефанюк\InterpolationMethod\bin\Release\sv\ZedGraph.resources.dll
+E:\repos\Стефанюк\InterpolationMethod\bin\Release\tr\ZedGraph.resources.dll
+E:\repos\Стефанюк\InterpolationMethod\bin\Release\zh-cn\ZedGraph.resources.dll
+E:\repos\Стефанюк\InterpolationMethod\bin\Release\zh-tw\ZedGraph.resources.dll
+E:\repos\Стефанюк\InterpolationMethod\obj\Release\InterpolationMethod.csprojAssemblyReference.cache
+E:\repos\Стефанюк\InterpolationMethod\obj\Release\InterpolationMethod.ChainEditor.resources
+E:\repos\Стефанюк\InterpolationMethod\obj\Release\InterpolationMethod.ExtendendedCharacteristics.resources
+E:\repos\Стефанюк\InterpolationMethod\obj\Release\InterpolationMethod.MainWIndow.resources
+E:\repos\Стефанюк\InterpolationMethod\obj\Release\InterpolationMethod.Properties.Resources.resources
+E:\repos\Стефанюк\InterpolationMethod\obj\Release\InterpolationMethod.csproj.GenerateResource.cache
+E:\repos\Стефанюк\InterpolationMethod\obj\Release\InterpolationMethod.csproj.CopyComplete
+E:\repos\Стефанюк\InterpolationMethod\obj\Release\InterpolationMethod.exe
+E:\repos\Стефанюк\InterpolationMethod\obj\Release\InterpolationMethod.pdb

@@ -77,7 +77,8 @@ namespace InterpolationMethod
             
             GraphPane pane = zedGraph.GraphPane;
             zedGraph.Text = "ЛРЗ";
-
+            pane.Title.Text = "Построение Линии Равного Затухания ";
+            pane.Title.FontSpec.FontColor = Color.Fuchsia;
             pane.XAxis.Title.Text = "Kp";
             pane.XAxis.Title.FontSpec.IsUnderline = true;
             pane.XAxis.Title.FontSpec.FontColor = Color.OrangeRed;

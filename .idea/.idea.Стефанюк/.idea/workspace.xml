@@ -2,15 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="474d504d-028c-4f1e-a636-be03569fb521" name="Default Changelist" comment="Added new controller entity. Changed some algorithms).">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Стефанюк/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Стефанюк/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Стефанюк/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Стефанюк/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterpolationMethod/AutomizedObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InterpolationMethod/AutomizedObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterpolationMethod/ChainEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InterpolationMethod/ChainEditor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterpolationMethod/ControllerExtendedCharacteristics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InterpolationMethod/ControllerExtendedCharacteristics.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/InterpolationMethod/FrequencyCalculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/InterpolationMethod/FrequencyCalculator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterpolationMethod/bin/Debug/InterpolationMethod.exe" beforeDir="false" afterPath="$PROJECT_DIR$/InterpolationMethod/bin/Debug/InterpolationMethod.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterpolationMethod/bin/Debug/InterpolationMethod.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/InterpolationMethod/bin/Debug/InterpolationMethod.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterpolationMethod/obj/Debug/InterpolationMethod.exe" beforeDir="false" afterPath="$PROJECT_DIR$/InterpolationMethod/obj/Debug/InterpolationMethod.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InterpolationMethod/obj/Debug/InterpolationMethod.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/InterpolationMethod/obj/Debug/InterpolationMethod.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterpolationMethod/bin/Release/InterpolationMethod.exe" beforeDir="false" afterPath="$PROJECT_DIR$/InterpolationMethod/bin/Release/InterpolationMethod.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterpolationMethod/bin/Release/InterpolationMethod.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/InterpolationMethod/bin/Release/InterpolationMethod.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterpolationMethod/obj/Release/InterpolationMethod.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/InterpolationMethod/obj/Release/InterpolationMethod.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterpolationMethod/obj/Release/InterpolationMethod.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/InterpolationMethod/obj/Release/InterpolationMethod.csproj.GenerateResource.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterpolationMethod/obj/Release/InterpolationMethod.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/InterpolationMethod/obj/Release/InterpolationMethod.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterpolationMethod/obj/Release/InterpolationMethod.exe" beforeDir="false" afterPath="$PROJECT_DIR$/InterpolationMethod/obj/Release/InterpolationMethod.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InterpolationMethod/obj/Release/InterpolationMethod.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/InterpolationMethod/obj/Release/InterpolationMethod.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,10 +56,10 @@
         <option value="$PROJECT_DIR$/InterpolationMethod/AutomatisationObject.cs" />
         <option value="$PROJECT_DIR$/InterpolationMethod/ControllerGraphic.cs" />
         <option value="$PROJECT_DIR$/InterpolationMethod/UnicornController.cs" />
-        <option value="$PROJECT_DIR$/InterpolationMethod/ControllerExtendedCharacteristics.cs" />
         <option value="$PROJECT_DIR$/InterpolationMethod/FrequencyCalculator.cs" />
         <option value="$PROJECT_DIR$/InterpolationMethod/ChainEditor.cs" />
         <option value="$PROJECT_DIR$/InterpolationMethod/AutomizedObject.cs" />
+        <option value="$PROJECT_DIR$/InterpolationMethod/ControllerExtendedCharacteristics.cs" />
       </list>
     </option>
   </component>
@@ -116,7 +117,8 @@
       <workItem from="1586301741586" duration="616000" />
       <workItem from="1586302381831" duration="109000" />
       <workItem from="1586302567172" duration="8376000" />
-      <workItem from="1586445852788" duration="6740000" />
+      <workItem from="1586445852788" duration="7316000" />
+      <workItem from="1586464187912" duration="373000" />
     </task>
     <task id="LOCAL-00001" summary="Added new controller entity. Changed some algorithms).">
       <created>1586187490452</created>
@@ -174,86 +176,86 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="463" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1586462406963" />
-    <state width="938" height="348" key="GridCell.Tab.0.bottom" timestamp="1586462278049">
+    <state width="938" height="348" key="GridCell.Tab.0.bottom" timestamp="1586464526679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586462278049" />
-    <state width="938" height="348" key="GridCell.Tab.0.center" timestamp="1586462278049">
+    <state width="938" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586464526679" />
+    <state width="938" height="348" key="GridCell.Tab.0.center" timestamp="1586464526678">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586462278049" />
-    <state width="938" height="348" key="GridCell.Tab.0.left" timestamp="1586462278048">
+    <state width="938" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586464526678" />
+    <state width="938" height="348" key="GridCell.Tab.0.left" timestamp="1586464526678">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586462278048" />
-    <state width="938" height="348" key="GridCell.Tab.0.right" timestamp="1586462278049">
+    <state width="938" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586464526678" />
+    <state width="938" height="348" key="GridCell.Tab.0.right" timestamp="1586464526679">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586462278049" />
-    <state width="938" height="348" key="GridCell.Tab.1.bottom" timestamp="1586462285586">
+    <state width="938" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586464526679" />
+    <state width="938" height="348" key="GridCell.Tab.1.bottom" timestamp="1586464526314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586462285586" />
-    <state width="938" height="348" key="GridCell.Tab.1.center" timestamp="1586462285586">
+    <state width="938" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586464526314" />
+    <state width="938" height="348" key="GridCell.Tab.1.center" timestamp="1586464526313">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586462285586" />
-    <state width="938" height="348" key="GridCell.Tab.1.left" timestamp="1586462285585">
+    <state width="938" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586464526313" />
+    <state width="938" height="348" key="GridCell.Tab.1.left" timestamp="1586464526313">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586462285585" />
-    <state width="938" height="348" key="GridCell.Tab.1.right" timestamp="1586462285586">
+    <state width="938" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586464526313" />
+    <state width="938" height="348" key="GridCell.Tab.1.right" timestamp="1586464526313">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586462285586" />
-    <state width="938" height="348" key="GridCell.Tab.2.bottom" timestamp="1586462277799">
+    <state width="938" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586464526313" />
+    <state width="938" height="348" key="GridCell.Tab.2.bottom" timestamp="1586464526314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586462277799" />
-    <state width="938" height="348" key="GridCell.Tab.2.center" timestamp="1586462277799">
+    <state width="938" height="348" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586464526314" />
+    <state width="938" height="348" key="GridCell.Tab.2.center" timestamp="1586464526314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586462277799" />
-    <state width="938" height="348" key="GridCell.Tab.2.left" timestamp="1586462277799">
+    <state width="938" height="348" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586464526314" />
+    <state width="938" height="348" key="GridCell.Tab.2.left" timestamp="1586464526314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586462277799" />
-    <state width="938" height="348" key="GridCell.Tab.2.right" timestamp="1586462277799">
+    <state width="938" height="348" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586464526314" />
+    <state width="938" height="348" key="GridCell.Tab.2.right" timestamp="1586464526314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586462277799" />
-    <state width="938" height="348" key="GridCell.Tab.3.bottom" timestamp="1586462277800">
+    <state width="938" height="348" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586464526314" />
+    <state width="938" height="348" key="GridCell.Tab.3.bottom" timestamp="1586464526314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="348" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586462277800" />
-    <state width="938" height="348" key="GridCell.Tab.3.center" timestamp="1586462277799">
+    <state width="938" height="348" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586464526314" />
+    <state width="938" height="348" key="GridCell.Tab.3.center" timestamp="1586464526314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="348" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586462277799" />
-    <state width="938" height="348" key="GridCell.Tab.3.left" timestamp="1586462277799">
+    <state width="938" height="348" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586464526314" />
+    <state width="938" height="348" key="GridCell.Tab.3.left" timestamp="1586464526314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="348" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586462277799" />
-    <state width="938" height="348" key="GridCell.Tab.3.right" timestamp="1586462277800">
+    <state width="938" height="348" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586464526314" />
+    <state width="938" height="348" key="GridCell.Tab.3.right" timestamp="1586464526314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="348" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586462277800" />
-    <state width="938" height="348" key="GridCell.Tab.4.bottom" timestamp="1586462277800">
+    <state width="938" height="348" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586464526314" />
+    <state width="938" height="348" key="GridCell.Tab.4.bottom" timestamp="1586464526315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="348" key="GridCell.Tab.4.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586462277800" />
-    <state width="938" height="348" key="GridCell.Tab.4.center" timestamp="1586462277800">
+    <state width="938" height="348" key="GridCell.Tab.4.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586464526315" />
+    <state width="938" height="348" key="GridCell.Tab.4.center" timestamp="1586464526315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="348" key="GridCell.Tab.4.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586462277800" />
-    <state width="938" height="348" key="GridCell.Tab.4.left" timestamp="1586462277800">
+    <state width="938" height="348" key="GridCell.Tab.4.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586464526315" />
+    <state width="938" height="348" key="GridCell.Tab.4.left" timestamp="1586464526314">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="348" key="GridCell.Tab.4.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586462277800" />
-    <state width="938" height="348" key="GridCell.Tab.4.right" timestamp="1586462277800">
+    <state width="938" height="348" key="GridCell.Tab.4.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586464526314" />
+    <state width="938" height="348" key="GridCell.Tab.4.right" timestamp="1586464526315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="348" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586462277800" />
+    <state width="938" height="348" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586464526315" />
     <state x="643" y="260" key="Rider.ProjectTemplateDialog.Size" timestamp="1586265064948">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -266,37 +268,5 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586187494983" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/InterpolationMethod/ChainEditor.cs</url>
-          <line>121</line>
-          <properties documentPath="$PROJECT_DIR$/InterpolationMethod/ChainEditor.cs" initialLine="121">
-            <startOffsets>
-              <option value="4360" />
-            </startOffsets>
-            <endOffsets>
-              <option value="4406" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/InterpolationMethod/ChainEditor.cs</url>
-          <line>115</line>
-          <properties documentPath="$PROJECT_DIR$/InterpolationMethod/ChainEditor.cs" initialLine="115">
-            <startOffsets>
-              <option value="4080" />
-            </startOffsets>
-            <endOffsets>
-              <option value="4138" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
