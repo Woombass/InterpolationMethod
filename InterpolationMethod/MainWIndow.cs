@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Globalization;
 using System.Linq;
+using System.Net.Configuration;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -102,12 +103,27 @@ namespace InterpolationMethod
         ControllerGraphic controller;
         private void button1_Click(object sender, EventArgs e)
         {
+            List<double> points = new List<double>();
+            List<double> step = new List<double>();
+            try
+            {
+                points = GetNumbers(textBox1.Text);
+                step = GetNumbers(textBox2.Text);
+            }
+            catch (Exception exception)
+            {
+                MessageBox.Show("Все поля должны быть заполнены!", "Алярм!", MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
+                return;
+            }
+            
             this.Height = 700;
             groupBox2.Visible = true;
             groupBox1.Visible = true;
-            var points = GetNumbers(textBox1.Text);
-            var step = GetNumbers(textBox2.Text);
+            
 
+
+            
             controller = new ControllerGraphic(points, step);
             dd += controller.Calculate;
             controller.Normalize();

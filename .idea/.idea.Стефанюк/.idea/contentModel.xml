@@ -30,10 +30,14 @@
           <e p="Resources.Designer.cs" t="Include" />
           <e p="Resources.resx" t="Include" />
         </e>
+        <e p="scienceandfiction-trend_99206.ico" t="Include" />
         <e p="tasks_ico.ico" t="Include" />
         <e p="UnicornController.cs" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
+      <e p="Programm Installer" t="IncludeRecursive">
+        <e p="Programm Installer.vdproj" t="IncludeRecursive" />
+      </e>
       <e p="Стефанюк.sln" t="IncludeFlat" />
     </e>
   </component>

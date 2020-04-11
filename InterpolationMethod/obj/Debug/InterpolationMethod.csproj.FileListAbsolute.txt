@@ -50,3 +50,4 @@ E:\repos\Стефанюк\InterpolationMethod\obj\Debug\InterpolationMethod.cspr
 E:\repos\Стефанюк\InterpolationMethod\obj\Debug\InterpolationMethod.csproj.CopyComplete
 E:\repos\Стефанюк\InterpolationMethod\obj\Debug\InterpolationMethod.exe
 E:\repos\Стефанюк\InterpolationMethod\obj\Debug\InterpolationMethod.pdb
+E:\repos\Стефанюк\InterpolationMethod\obj\Debug\InterpolationMethod.csproj.CoreCompileInputs.cache

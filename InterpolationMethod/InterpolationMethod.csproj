@@ -37,7 +37,7 @@
     <StartupObject>InterpolationMethod.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>tasks_ico.ico</ApplicationIcon>
+    <ApplicationIcon>scienceandfiction-trend_99206.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -114,6 +114,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="scienceandfiction-trend_99206.ico" />
     <Content Include="tasks_ico.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

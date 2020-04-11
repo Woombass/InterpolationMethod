@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources =
+                new System.ComponentModel.ComponentResourceManager(typeof(ExtendendedCharacteristics));
             this.zedGraphControl1 = new ZedGraph.ZedGraphControl();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -66,8 +68,9 @@
             this.ClientSize = new System.Drawing.Size(1276, 705);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.zedGraphControl1);
+            this.Icon = ((System.Drawing.Icon) (resources.GetObject("$this.Icon")));
             this.Name = "ExtendendedCharacteristics";
-            this.Text = "ExtendendedCharacteristics";
+            this.Text = "График ЛРЗ";
             this.ResumeLayout(false);
             this.PerformLayout();
         }

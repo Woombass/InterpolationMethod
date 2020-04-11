@@ -38,7 +38,6 @@ E:\repos\Стефанюк\InterpolationMethod\bin\Release\sv\ZedGraph.resources.
 E:\repos\Стефанюк\InterpolationMethod\bin\Release\tr\ZedGraph.resources.dll
 E:\repos\Стефанюк\InterpolationMethod\bin\Release\zh-cn\ZedGraph.resources.dll
 E:\repos\Стефанюк\InterpolationMethod\bin\Release\zh-tw\ZedGraph.resources.dll
-E:\repos\Стефанюк\InterpolationMethod\obj\Release\InterpolationMethod.csprojAssemblyReference.cache
 E:\repos\Стефанюк\InterpolationMethod\obj\Release\InterpolationMethod.ChainEditor.resources
 E:\repos\Стефанюк\InterpolationMethod\obj\Release\InterpolationMethod.ExtendendedCharacteristics.resources
 E:\repos\Стефанюк\InterpolationMethod\obj\Release\InterpolationMethod.MainWIndow.resources
@@ -47,3 +46,5 @@ E:\repos\Стефанюк\InterpolationMethod\obj\Release\InterpolationMethod.cs
 E:\repos\Стефанюк\InterpolationMethod\obj\Release\InterpolationMethod.csproj.CopyComplete
 E:\repos\Стефанюк\InterpolationMethod\obj\Release\InterpolationMethod.exe
 E:\repos\Стефанюк\InterpolationMethod\obj\Release\InterpolationMethod.pdb
+E:\repos\Стефанюк\InterpolationMethod\obj\Release\InterpolationMethod.csproj.CoreCompileInputs.cache
+E:\repos\Стефанюк\InterpolationMethod\obj\Release\InterpolationMethod.csprojAssemblyReference.cache

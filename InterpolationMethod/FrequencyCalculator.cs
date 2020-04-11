@@ -123,26 +123,100 @@ namespace InterpolationMethod
                     -Math.Atan((double) ProportionalChain.T * Frequency0 / (1 - (double) ProportionalChain.T * Frequency0 * M));
                 F = Math.Round(F, 2);
                 CurrentF = F;
-                compareExpression = Math.Abs(Math.Abs(CurrentF) - Math.Abs(Math.Round(-Math.PI / 2 + Math.Atan(M), 2)));
+                var comparabelVar = Math.Abs(Math.Round(-Math.PI / 2 + Math.Atan(M), 2));
+                compareExpression = Math.Abs(Math.Abs(CurrentF) - comparabelVar);
 
             } while (compareExpression > 0.05);
         }
         private void CalculatePI()
         {
+            double F;
+            double compareExpression ;
+            double compareExpression2;
             
+            var comparabelVar = Math.Abs(Math.Round(Math.PI / 2 + Math.Atan(M), 2));
+            var comparableVar2 = Math.Abs(Math.Round(Math.PI, 2));
+
+            double IntegratingF = -(Math.PI / 2) - Math.Atan(M);
+            double ProportionalF;
+            
+            do
+            {
+                ProportionalF = -(Math.Atan(((double) ProportionalChain.T * Frequency1) / (1 - (double) ProportionalChain.T * Frequency1 * M)));
+                F = IntegratingF  + ProportionalF;
+                F = Math.Round(F, 2);
+                CurrentF = F;
+                compareExpression2 = Math.Abs(Math.Abs(CurrentF) - comparableVar2);
+                Frequency1 += 0.0005;
+            } while (compareExpression2 > 0.05);
+
+            do
+            {
+                ProportionalF = -(Math.Atan(((double) ProportionalChain.T * Frequency0) / (1 - (double) ProportionalChain.T * Frequency0 * M)));
+                F = IntegratingF + ProportionalF;
+                F = Math.Round(F, 2);
+                
+                CurrentF = F;
+                
+                Frequency0 += 0.0005;
+                
+                compareExpression = Math.Abs(Math.Abs(CurrentF) - comparabelVar);
+            } while (compareExpression > 0.05);
         }
         private void CalculateLI()
         {
+            Frequency0 = 0;
+            Frequency1 = 0;
+            double F;
+            double compareExpression1;
+            double compareExpression2;
             
+            var comparableVar1 = Math.Abs(Math.Round(Math.PI / 2 + Math.Atan(M), 2));
+            var comparableVar2 = Math.Abs(Math.Round(Math.PI, 2));
+            
+            var integratingF = -(Math.PI / 2) - Math.Atan(M);
+            double latencyF;
+            do
+            {
+                latencyF = -(Frequency0 * (double) LatencyChain.tau);
+
+                F = latencyF + integratingF;
+                F = Math.Round(F, 2);
+                
+                CurrentF = F;
+                
+                Frequency0 += 0.0005;
+
+                compareExpression1 = Math.Abs(Math.Abs(CurrentF) - comparableVar1);
+            } while (compareExpression1 > 0.05);
+
+            do
+            {
+                latencyF = -(Frequency1 * (double) LatencyChain.tau);
+
+                F = latencyF + integratingF;
+                
+                F = Math.Round(F, 2);
+                
+                CurrentF = F;
+                
+                Frequency1 += 0.0005;
+                
+                compareExpression2 = Math.Abs(Math.Abs(CurrentF) - comparableVar2);
+            } while (compareExpression2 > 0.05);
+
         }
+        //TODO: Реализовать расчёт запаздывания.
         private void CalculateL()
         {
             
         }
+        //TODO: Реализовать пасчёт пропорционального.
         private void CalculateP()
         {
             
         }
+        //TODO: Реализовать расчёт интегрирующего.
         private void CalculateI()
         {
             
