@@ -6,9 +6,9 @@ namespace InterpolationMethod
 {
     public class AutomizedObject
     {
-        private List<Chain> Chains { get;  set; }
-        public List<double> CommonA { get; private set; }
-        public List<double> CommonF { get; private set; }
+        private List<Chain> Chains { get;}
+        public List<double> CommonA { get;}
+        public List<double> CommonF { get; }
 
 
         public AutomizedObject(List<Chain> chains)

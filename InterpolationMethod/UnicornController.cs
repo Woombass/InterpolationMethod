@@ -19,7 +19,7 @@ namespace InterpolationMethod
             List<double> gamma = new List<double>();
             foreach (var item in fList)
             {
-                double number = -(Math.PI / 2) + Math.Atan(m) - item;
+                double number = -(Math.PI / 2) + Math.Atan(m)  - item;
                 gamma.Add(number);
             }
 
@@ -41,22 +41,26 @@ namespace InterpolationMethod
             Kp = kp;
             return kp;
         }
-        public  List<double> CalculateKp_Ti(List<double> aList)
+
+        public List<double> CalculateKp_Ti(List<double> aList, double first, double last, double step)
         {
             if (aList == null || Gamma == null)
             {
                 return null;
             }
-            
+
             List<double> Kp_ti = new List<double>();
 
             for (int i = 0; i < Gamma.Count - 1; i++)
             {
-                double number = (Math.Sqrt(Math.Pow(m, 2) + 1) / aList[i]) * (Math.Cos(Gamma[i]) + m * Math.Sin(Gamma[i]));
+                double number = (first * (Math.Sqrt(Math.Pow(m, 2) + 1)) / aList[i]) *
+                                (Math.Cos(Gamma[i]) + m * Math.Sin(Gamma[i]));
                 Kp_ti.Add(number);
+                first += step;
             }
+
             KpTi = Kp_ti;
-            return Kp_ti;
+            return KpTi;
         }
     }
 }

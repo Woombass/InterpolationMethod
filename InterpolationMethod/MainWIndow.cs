@@ -85,6 +85,7 @@ namespace InterpolationMethod
         public MainWIndow()
         {
             InitializeComponent();
+            FormBorderStyle = FormBorderStyle.FixedDialog;
             button2.Visible = false;
             groupBox2.Visible = false;
             groupBox1.Visible = false;

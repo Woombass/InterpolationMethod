@@ -63,7 +63,6 @@ namespace InterpolationMethod
 
             for (double i = first; i < last;)
             {
-
                 double A = (double)chain.K / (Math.Sqrt(Math.Pow(1 - (double)chain.T * m * i, 2) + Math.Pow((double)chain.T * i, 2)));
                 double F = -(Math.Atan(((double)chain.T * i) / (1 - (double)chain.T * i * m)));
 
@@ -101,8 +100,6 @@ namespace InterpolationMethod
             zedGraph.AxisChange();
             zedGraph.Invalidate();
         }
-        
-
     }
 
 }

@@ -5,7 +5,6 @@ namespace InterpolationMethod
 {
     public class FrequencyCalculator
     {
-        private ControllerExtendedCharacteristics Controller;
 
         //public List<double> Frequencies { get; set; }
         private List<Chain> Chains { get; set; }
@@ -14,7 +13,6 @@ namespace InterpolationMethod
         public double Frequency1 { get; private set; } = 0;
         public double Frequency0 { get; private set; } = 0;
         private Chain IntegratingChain;
-        private double CurrentA;
         private double CurrentF;
         private const double M = 0.221;
 

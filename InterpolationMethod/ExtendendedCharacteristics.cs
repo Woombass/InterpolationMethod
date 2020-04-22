@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ZedGraph;
 
 namespace InterpolationMethod
 {
@@ -15,13 +16,32 @@ namespace InterpolationMethod
         public ExtendendedCharacteristics()
         {
             InitializeComponent();
+            FormBorderStyle = FormBorderStyle.FixedDialog;
+            zedGraphControl1.MouseMove += ZedGraphControl1OnMouseMove;
+            zedGraphControl1.MouseClick += ZedGraphControl1OnMouseClick;
         }
-        
-        
-        
-        
-        
 
+        private void ZedGraphControl1OnMouseClick(object sender, MouseEventArgs e)
+        {
+            double Kp, Kp_Ti, Ti;
+            
+            zedGraphControl1.GraphPane.ReverseTransform(e.Location,out Kp,out Kp_Ti);
+            Ti = Kp / Kp_Ti;
+            Kp = Math.Round(Kp, 3);
+            Ti = Math.Round(Ti, 3);
+            textBox1.Text = Convert.ToString(Kp);
+            textBox2.Text = Convert.ToString(Ti);
 
+        }
+
+        private void ZedGraphControl1OnMouseMove(object sender, MouseEventArgs e)
+        {
+                        double x, y;
+            
+                        zedGraphControl1.GraphPane.ReverseTransform(e.Location, out x, out y);
+            
+                        string text = $"Kp: {Math.Round(x, 4)}; Kp/Ti: {Math.Round(y,4)}";
+                        label1.Text = text;
+        }
     }
 }

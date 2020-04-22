@@ -34,13 +34,6 @@ namespace InterpolationMethod
         /// Значение РФЧХ звена.
         /// </summary>
         public List<double> F { get; set; }
-
-
-        public Chain()
-        {
-
-        }
-
         public Chain(ChainType type)
         {
             A = new List<double>();

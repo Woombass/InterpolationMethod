@@ -17,6 +17,7 @@ namespace InterpolationMethod
         public ChainEditor()
         {
             InitializeComponent();
+            FormBorderStyle = FormBorderStyle.FixedDialog;
             groupBox2.Enabled = false;
             groupBox3.Enabled = false;
             groupBox4.Enabled = false;
@@ -122,10 +123,12 @@ namespace InterpolationMethod
             
                 unicorn.CalculateGamma(_automizedObject.CommonF);
                 unicorn.CalculateKp(_automizedObject.CommonA);
-                unicorn.CalculateKp_Ti(_automizedObject.CommonA);
+                unicorn.CalculateKp_Ti(_automizedObject.CommonA, first, last, step);
             
                 controller.DrawExtCh(unicorn.KpTi,unicorn.Kp);
                 graphic.Show();
+                MessageBox.Show("Для расчёта параметров регулятора нажмите ЛКМ по точке, правее вершины ЛРЗ!",
+                    "Внимание!", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception exception)
             {
