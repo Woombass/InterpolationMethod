@@ -5,7 +5,13 @@
     <e p="C:\Users\JustGap\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Стефанюк.-316206508.00" t="ExcludeRecursive" />
     <e p="E:\repos\Стефанюк" t="IncludeFlat">
       <e p="InterpolationMethod" t="IncludeRecursive">
+        <e p="Admin-Panel.cs" t="Include" />
+        <e p="Admin-Panel.Designer.cs" t="Include" />
+        <e p="Admin-Panel.resx" t="Include" />
         <e p="App.config" t="Include" />
+        <e p="AuthorizationForm.cs" t="Include" />
+        <e p="AuthorizationForm.Designer.cs" t="Include" />
+        <e p="AuthorizationForm.resx" t="Include" />
         <e p="AutomizedObject.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Chain.cs" t="Include" />

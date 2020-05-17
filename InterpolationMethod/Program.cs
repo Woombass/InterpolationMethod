@@ -9,7 +9,9 @@ using System.Windows.Forms;
 namespace InterpolationMethod
 {
     static class Program
+
     {
+        internal static bool admin { get; set; }
         /// <summary>
         /// Главная точка входа для приложения.
         /// </summary>
@@ -19,6 +21,13 @@ namespace InterpolationMethod
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainWIndow());
+
+             admin = false;
+        }
+
+        internal static void ChangePerm(bool newPerm)
+        {
+            admin = newPerm;
         }
     }
 }

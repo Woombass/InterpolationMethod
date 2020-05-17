@@ -110,6 +110,12 @@ namespace InterpolationMethod
             {
                 points = GetNumbers(textBox1.Text);
                 step = GetNumbers(textBox2.Text);
+                if (step.Count != points.Count)
+                {
+                    MessageBox.Show("Количество значений времени и значений выходного сигнала должно быть одинаковым!",
+                        "Алярм!", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
             }
             catch (Exception exception)
             {
@@ -144,6 +150,12 @@ namespace InterpolationMethod
             label7.Text =  "T: " + Convert.ToString( Math.Round(controller.Graph.T, 4) );
             label8.Text = "Tau: " + Convert.ToString(Math.Round(controller.Graph.Tau, 4));
             label10.Text = "K: " + Convert.ToString(Math.Round(controller.Graph.K, 4));
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var auth = new AuthorizationForm();
+            auth.Show();
         }
     }
 }

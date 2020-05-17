@@ -54,6 +54,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin-Panel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin-Panel.Designer.cs">
+      <DependentUpon>Admin-Panel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AuthorizationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AuthorizationForm.Designer.cs">
+      <DependentUpon>AuthorizationForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Chain.cs" />
     <Compile Include="ChainEditor.cs">
       <SubType>Form</SubType>
@@ -99,6 +111,12 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Admin-Panel.resx">
+      <DependentUpon>Admin-Panel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AuthorizationForm.resx">
+      <DependentUpon>AuthorizationForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ChainEditor.resx">
       <DependentUpon>ChainEditor.cs</DependentUpon>
     </EmbeddedResource>

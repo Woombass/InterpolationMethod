@@ -48,3 +48,5 @@ E:\repos\Стефанюк\InterpolationMethod\obj\Release\InterpolationMethod.ex
 E:\repos\Стефанюк\InterpolationMethod\obj\Release\InterpolationMethod.pdb
 E:\repos\Стефанюк\InterpolationMethod\obj\Release\InterpolationMethod.csproj.CoreCompileInputs.cache
 E:\repos\Стефанюк\InterpolationMethod\obj\Release\InterpolationMethod.csprojAssemblyReference.cache
+E:\repos\Стефанюк\InterpolationMethod\obj\Release\InterpolationMethod.Admin_Panel.resources
+E:\repos\Стефанюк\InterpolationMethod\obj\Release\InterpolationMethod.AuthorizationForm.resources

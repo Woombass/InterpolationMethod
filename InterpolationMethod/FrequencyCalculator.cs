@@ -107,6 +107,7 @@ namespace InterpolationMethod
             double F;
             double compareExpression;
             double compareExpression2;
+            var comparableVar1 =-Math.PI / 2 + Math.Atan(M);
             do
             {
                 Frequency1 += 0.0005;
@@ -116,7 +117,7 @@ namespace InterpolationMethod
 
                 F = Math.Round(F, 2);
                 CurrentF = F;
-                compareExpression2 = Math.Abs(Math.Abs(CurrentF) - Math.Abs(Math.Round(Math.PI, 2)));
+                compareExpression2 = CurrentF - (-Math.PI);
             } while (compareExpression2 > 0.05);
 
             do
@@ -127,8 +128,7 @@ namespace InterpolationMethod
                                (1 - (double) ProportionalChain.T * Frequency0 * M));
                 F = Math.Round(F, 2);
                 CurrentF = F;
-                var comparabelVar = Math.Abs(Math.Round(-Math.PI / 2 + Math.Atan(M), 2));
-                compareExpression = Math.Abs(Math.Abs(CurrentF) - comparabelVar);
+                compareExpression =CurrentF - comparableVar1;
             } while (compareExpression > 0.05);
         }
 
@@ -138,8 +138,7 @@ namespace InterpolationMethod
             double compareExpression;
             double compareExpression2;
 
-            var comparabelVar = Math.Abs(Math.Round(Math.PI / 2 + Math.Atan(M), 2));
-            var comparableVar2 = Math.Abs(Math.Round(Math.PI, 2));
+            var comparableVar1 =-Math.PI / 2 + Math.Atan(M);
 
             double IntegratingF = -(Math.PI / 2) - Math.Atan(M);
             double ProportionalF;
@@ -151,7 +150,7 @@ namespace InterpolationMethod
                 F = IntegratingF + ProportionalF;
                 F = Math.Round(F, 2);
                 CurrentF = F;
-                compareExpression2 = Math.Abs(Math.Abs(CurrentF) - comparableVar2);
+                compareExpression2 = CurrentF - (-Math.PI);
                 Frequency1 += 0.0005;
             } while (compareExpression2 > 0.05);
 
@@ -166,7 +165,7 @@ namespace InterpolationMethod
 
                 Frequency0 += 0.0005;
 
-                compareExpression = Math.Abs(Math.Abs(CurrentF) - comparabelVar);
+                compareExpression = CurrentF - comparableVar1;
             } while (compareExpression > 0.05);
         }
 
@@ -178,9 +177,7 @@ namespace InterpolationMethod
             double compareExpression1;
             double compareExpression2;
 
-            var comparableVar1 = Math.Abs(Math.Round(Math.PI / 2 + Math.Atan(M), 2));
-            var comparableVar2 = Math.Abs(Math.Round(Math.PI, 2));
-
+            var comparableVar1 =-Math.PI / 2 + Math.Atan(M);
             var integratingF = -(Math.PI / 2) - Math.Atan(M);
             double latencyF;
             do
@@ -194,7 +191,7 @@ namespace InterpolationMethod
 
                 Frequency0 += 0.0005;
 
-                compareExpression1 = Math.Abs(Math.Abs(CurrentF) - comparableVar1);
+                compareExpression1 = CurrentF - comparableVar1;
             } while (compareExpression1 > 0.05);
 
             do
@@ -209,7 +206,7 @@ namespace InterpolationMethod
 
                 Frequency1 += 0.0005;
 
-                compareExpression2 = Math.Abs(Math.Abs(CurrentF) - comparableVar2);
+                compareExpression2 = CurrentF - (-Math.PI);
             } while (compareExpression2 > 0.05);
         }
         private void CalculateL()
@@ -219,8 +216,7 @@ namespace InterpolationMethod
             double compareExpression1;
             double compareExpression2;
 
-            var comparableVar1 = Math.Abs(Math.Round(Math.PI / 2 + Math.Atan(M), 2));
-            var comparableVar2 = Math.Abs(Math.Round(Math.PI, 2));
+            var comparableVar1 =-Math.PI / 2 + Math.Atan(M);
             double latencyF;
 
             do
@@ -229,7 +225,7 @@ namespace InterpolationMethod
 
                 CurrentF = latencyF;
 
-                compareExpression1 = Math.Abs(Math.Abs(CurrentF) - comparableVar1);
+                compareExpression1 = CurrentF - comparableVar1;
 
                 Frequency0 += 0.0005;
             } while (compareExpression1 > 0.05);
@@ -240,7 +236,7 @@ namespace InterpolationMethod
 
                 CurrentF = latencyF;
 
-                compareExpression2 = Math.Abs(Math.Abs(CurrentF) - comparableVar2);
+                compareExpression2 = CurrentF - (-Math.PI);
 
                 Frequency1 += 0.0005;
             } while (compareExpression2 > 0.05);
@@ -255,8 +251,7 @@ namespace InterpolationMethod
             double compareExpression2;
             double ProportionalF;
 
-            var comparableVar1 = Math.Abs(Math.Round(Math.PI / 2 + Math.Atan(M), 2));
-            var comparableVar2 = Math.Abs(Math.Round(Math.PI, 2));
+            var comparableVar1 =-Math.PI / 2 + Math.Atan(M);
 
             do
             {
@@ -266,7 +261,7 @@ namespace InterpolationMethod
                 ProportionalF = Math.Round(ProportionalF, 2);
                 CurrentF = ProportionalF;
                 
-                compareExpression1 = Math.Abs(Math.Abs(CurrentF) - comparableVar1);
+                compareExpression1 = CurrentF - comparableVar1;
                 
                 Frequency0 += 0.001;
             } while (compareExpression1 > 0.23);
@@ -281,7 +276,7 @@ namespace InterpolationMethod
                 ProportionalF = Math.Round(ProportionalF, 2);
                 CurrentF = ProportionalF;
 
-                compareExpression2 = Math.Abs(Math.Abs(CurrentF) - comparableVar2);
+                compareExpression2 = CurrentF - (-Math.PI);
                 Frequency1 += 0.005;
             } while (compareExpression2 > 0.05);
         }

@@ -19,6 +19,11 @@ namespace InterpolationMethod
             FormBorderStyle = FormBorderStyle.FixedDialog;
             zedGraphControl1.MouseMove += ZedGraphControl1OnMouseMove;
             zedGraphControl1.MouseClick += ZedGraphControl1OnMouseClick;
+            groupBox1.Enabled = false;
+            groupBox1.Visible = false;
+            groupBox2.Enabled = false;
+            groupBox2.Visible = false;
+            
         }
 
         private void ZedGraphControl1OnMouseClick(object sender, MouseEventArgs e)
@@ -26,11 +31,24 @@ namespace InterpolationMethod
             double Kp, Kp_Ti, Ti;
             
             zedGraphControl1.GraphPane.ReverseTransform(e.Location,out Kp,out Kp_Ti);
-            Ti = Kp / Kp_Ti;
-            Kp = Math.Round(Kp, 3);
-            Ti = Math.Round(Ti, 3);
-            textBox1.Text = Convert.ToString(Kp);
-            textBox2.Text = Convert.ToString(Ti);
+            if (Program.admin == true)
+            {
+                Ti = Kp / Kp_Ti;
+                Kp = Math.Round(Kp, 3);
+                Ti = Math.Round(Ti, 3);
+                textBox1.Text = Convert.ToString(Kp);
+                textBox2.Text = Convert.ToString(Ti);
+                groupBox1.Visible = true;
+                groupBox1.Enabled = true;
+            }
+            else
+            {
+                textBox4.Text = Convert.ToString(Math.Round(Kp, 3));
+                textBox3.Text = Convert.ToString(Math.Round(Kp_Ti, 4));
+                groupBox2.Visible = true;
+                groupBox2.Enabled = true;
+            }
+
 
         }
 
