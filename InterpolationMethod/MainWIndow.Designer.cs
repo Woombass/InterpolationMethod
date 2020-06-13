@@ -307,7 +307,7 @@
             // 
             this.button3.Location = new System.Drawing.Point(1099, 719);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(141, 41);
+            this.button3.Size = new System.Drawing.Size(141, 42);
             this.button3.TabIndex = 9;
             this.button3.Text = "Админ-панель";
             this.button3.UseVisualStyleBackColor = true;

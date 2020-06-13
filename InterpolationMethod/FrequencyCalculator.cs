@@ -94,7 +94,7 @@ namespace InterpolationMethod
             {
                 double A = (double) chain.K /
                            (Math.Sqrt(Math.Pow(1 - (double) chain.T * M * i, 2) + Math.Pow((double) chain.T * i, 2)));
-                double F = -(Math.Atan(((double) chain.T * i) / (1 - (double) chain.T * i * M)));
+                double F = -Math.Atan((double) chain.T * i / (1 - (double) chain.T * i * M));
 
                 chain.A.Add(A);
                 chain.F.Add(F);
@@ -263,10 +263,10 @@ namespace InterpolationMethod
                 
                 compareExpression1 = CurrentF - comparableVar1;
                 
-                Frequency0 += 0.001;
-            } while (compareExpression1 > 0.23);
+                Frequency0 += 0.0001;
+            } while (compareExpression1 > 0.05);
             
-            Frequency1 = Frequency0;
+                //Frequency1 = Frequency0;
 
             do
             {
